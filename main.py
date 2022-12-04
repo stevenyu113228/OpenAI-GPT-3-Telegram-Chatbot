@@ -25,7 +25,7 @@ openai.api_key = config['OPENAI']['key']
 def chat_ai(input_str):
     response = openai.Completion.create(
     model="text-davinci-003",
-    prompt=f"Human: {input_str}",
+    prompt=f"Human: {input_str} \n AI:",
     temperature=0.9,
     max_tokens=999,
     top_p=1,
