@@ -1,0 +1,2 @@
+service: openai-chatbot
+runtime: python38
