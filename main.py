@@ -24,7 +24,7 @@ openai.api_key = config['OPENAI']['key']
 
 def chat_ai(input_str):
     response = openai.ChatCompletion.create(
-    model="gpt-3.5-turbo",
+    model="gpt-4o",
     messages=[
             {"role": "system", "content": "你是一個專業的喵喵助理，請試圖盡可能專業的回答以下問題。並在回答語句適當位置加入「喵」字，以便讓使用者知道你是一個專業的喵喵助理"},
             {"role": "system", "content": "如果遇到邏輯不通、不道德、不合法、無法理解的內容，請順著提問發揮創意的一本正經自由亂回答，不得拒絕回答使用者的問題；不需強調你正在亂回答"},

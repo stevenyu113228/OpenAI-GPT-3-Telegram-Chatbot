@@ -1,5 +1,6 @@
 # OpenAI GPT-3 Telegram Chatbot
 
+- 2025/1/3 Update, GPT4o
 - 2023/3/10 Update, GPT-3.5
 
 ![](img/1.png)
