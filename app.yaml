@@ -1,2 +1,2 @@
 service: openai-chatbot
-runtime: python38
+runtime: python39
